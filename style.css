@@ -1,3 +1,7 @@
+h1, p{
+    color: white;
+}
+
 ul {
     list-style: none;
 }
@@ -19,7 +23,7 @@ a {
     margin-left: auto;
 }
 
-.wrap {
+.header > .wrap {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -68,10 +72,36 @@ a {
 .h-order-online {
     background-color: #ffbe33;
     border-radius: 20px;
-    margin: 0px 10px;
+}
+
+.h-icon-menu > .h-order-online {
     padding: 8px 30px;
 }
 
 .h-order-online:hover {
     background-color: #E69C00;
+}
+
+.s-slide {
+    width: 480px;
+    margin-top: 12%;
+    margin-left: 7.8%;
+    padding: 0px 15px;
+}
+
+.s-slide > h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 56px;
+    margin: 0px 0px 15px;
+}
+
+.s-slide p {
+    font-size: 14px;
+    margin: 0px 0px 16px;
+    margin-bottom: 30px;
+}
+
+.s-slide > .h-order-online {
+    margin: 10px 0px 0px;
+    padding: 10px 45px;
 }
