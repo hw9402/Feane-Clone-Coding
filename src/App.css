@@ -1,0 +1,171 @@
+h1, p{
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.header > .wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.h-title-logo {
+  color: white;
+  font-family: 'Dancing Script', cursive;
+  font-size: 32px;
+  margin: 0px 16px 0px 0px;
+  padding: 5px 0px;
+}
+
+.bg-img img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.h-items ul {
+  display: flex;
+  float: left;
+}
+
+.h-menu {
+  padding: 5px 20px;
+}
+
+.h-menu:hover {
+  color: #ffbe33;
+  transition: all ease-in-out 0.25s;
+}
+
+.h-icon-menu > .h-icon {
+  margin: 0px 10px;
+}
+
+.h-icon-menu > .h-icon:hover {
+  color: #ffbe33;
+}
+
+.h-order-online {
+  background-color: #ffbe33;
+  border-radius: 20px;
+}
+
+.h-icon-menu > .h-order-online {
+  padding: 8px 30px;
+  margin: 0px 10px;
+}
+
+.h-order-online:hover {
+  background-color: #E69C00;
+}
+
+.s-slide-container {
+  padding: 45px 0px 175px;
+}
+
+.s-slide {
+  width: 480px;
+  margin-top: 12%;
+  margin-left: 7.8%;
+  padding: 0px 15px;
+}
+
+.s-slide > h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 56px;
+  margin: 0px 0px 15px;
+}
+
+.s-slide p {
+  font-size: 14px;
+  margin: 0px 0px 16px;
+  margin-bottom: 30px;
+}
+
+.s-slide > .h-order-online {
+  margin: 10px 0px 0px;
+  padding: 10px 45px;
+}
+
+.s-discount-box-container {
+  width: 100%;
+  height: 200px;
+  margin: 0px 15px 0px 15px;
+  padding: 45px 0px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-discount-box {
+  width: 420px;
+  height: 180px;
+  color: white;
+  background-color: #222831;
+  position: relative;
+  margin-top: 45px;
+  margin-left: 50px;
+  padding: 20px 15px;
+  border-radius: 5px;
+  display: flex;
+  float: left;
+}
+
+.s-img-box {
+  width: 175px;
+  height: 175px;
+  padding: 0px 15px 0px 0px;
+}
+
+.s-img-box > img {
+  width: 100%;
+}
+
+.s-box-content {
+  vertical-align: middle;
+}
+
+.s-box-content > .h-order-online {
+  padding: 10px 30px;
+}
+
+.s-box-content > h5 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  margin: 10px auto;
+}
+
+.s-box-content > h6 {
+  font-family: 'Dancing Script', cursive;
+  margin: 10px 0px;
+  margin-bottom: 20px;
+}
+
+.s-box-content > h6 > span {
+  font-size: 40px;
+}
